@@ -35,7 +35,7 @@ for (i = 0; i < buttons.length; i++) {
     handelValueEvent(value);
   });
 }
-
+// this is a switch loop to understand which number is clicked by user.
 function handelValueEvent(value) {
   switch (value) {
     case "0":
